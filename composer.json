@@ -1,0 +1,23 @@
+{
+    "name": "ricardoaranha96p/Cakephp3Paginate",
+    "description": "Cakephp3Paginate plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.14|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cakephp3Paginate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cakephp3Paginate\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
